@@ -20,7 +20,7 @@ return new class extends Migration
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
             $table->string('phone');
-            $table->enum('status', ['active', 'disable']);
+            $table->enum('status', ['active', 'disable'])->default('active');
             $table->rememberToken();
             $table->timestamps();
         });
