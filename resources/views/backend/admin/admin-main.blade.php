@@ -47,8 +47,9 @@
         <!-- ============================================================== -->
         <div class="main-content">
             <div class="page-content">
-                
-                @yield('admin-content')
+                <div class="container-fluid">
+                    @yield('admin-content')
+                </div>
             </div>
             <!-- End Page-content -->
 

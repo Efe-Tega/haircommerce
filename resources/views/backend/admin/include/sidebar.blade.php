@@ -31,7 +31,7 @@
                         <span>Product</span>
                     </a>
                     <ul class="sub-menu" aria-expanded="false">
-                        <li><a href="email-inbox.html">Add Product</a></li>
+                        <li><a href="{{ route('admin.add.product') }}">Add Product</a></li>
                         <li><a href="email-read.html">View Products</a></li>
                     </ul>
                 </li>
